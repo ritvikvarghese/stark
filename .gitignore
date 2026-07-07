@@ -1,0 +1,39 @@
+# macos
+.DS_Store
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.uv/
+*.egg-info/
+
+# platformio / arduino build artifacts
+.pio/
+build/
+*.elf
+*.hex
+
+# vs code
+.vscode/
+
+# fusion / cad backups
+*.f3d.bak
+
+# large model / training artifacts (keep configs, not weights)
+*.ckpt
+*.pt
+*.safetensors
+outputs/
+wandb/
+
+# scratch
+*.tmp
+
+# private to me — roadmap, shopping list, learning resources, agent rules.
+# kept on disk so the daily loop can read them locally; never published.
+# CLAUDE.md stays at repo root so claude code auto-loads it, just untracked.
+/private/
+/course/
+/CLAUDE.md
