@@ -1,18 +1,12 @@
 # project stark
 
-*90 days of mechatronics.*
+*90 days of learning mechatronics and building things.*
 
-**one person, 90 working days, zero to a robot arm running a learned policy. every day documented in public, failures included.**
-
-this repo is a self built course. i start with a cheap arduino starter kit and math i last touched 8 years ago. i end with four working machines: a camera that turns to follow my face, a small car that steers itself along a line, a robot arm i printed and assembled myself, and that same arm doing a task it learned by watching me demonstrate it. everything in between, the wiring mistakes, the failed prints, the debugging sessions, lives in `/log` with real timestamps.
-
-if you're a recruiter or hiring manager: watch [the demos](#demos) and skim the five short writeups in `/writeups`. that's the 90 second version.
-
-if you're trying to learn this yourself: the whole course is below. steal it.
+starting with a cheap arduino starter kit and claude, i plan to to build 4 working machines: a camera that turns to follow my face, a small car that steers itself along a line, a robot arm i printed and assembled myself, and that same arm doing a task it learned by watching me demonstrate it.  follow everything at `/log` with real timestamps.
 
 ---
 
-## the five builds, in plain words
+## the five thing i'm planning to build 
 
 the course looks like five projects but it's really one idea built five times, each time with one new layer. every robot on earth runs the same loop: sense the world, decide what to do, move. i build the smallest honest version of that loop, then keep upgrading it.
 
@@ -41,8 +35,6 @@ the course looks like five projects but it's really one idea built five times, e
 ---
 
 ## small glossary
-
-so nobody has to google mid read:
 
 - **microcontroller**: a tiny cheap computer on one chip (the arduino) that runs a single program forever and controls electronics directly
 - **firmware**: the program that lives on the microcontroller
@@ -82,7 +74,7 @@ log rules: every working day gets an entry even if it's three lines. what i buil
 
 ## how i work each day
 
-every morning i open claude code in this repo. it reads `CLAUDE.md` and the day's entry in `/course/`, then works as a full pair programmer: brief me, build with me, unblock me fast.
+everyday, i work with claude on this repo. it reads `CLAUDE.md` and the day's entry in `/course/`, then works as a full pair programmer: brief me, build with me, unblock me fast.
 
 1. it gives me the day's brief: goal, build steps, theory block, checkpoint
 2. i build, hands on hardware for most of the session, the agent writing and debugging code alongside me
@@ -100,20 +92,6 @@ are new to me as we go, and keep me moving.
 
 ---
 
-## the rules i hold myself to
-
-**acceleration policy.** i'm fluent with ai coding agents and new to c++, so i use them the way i actually work: as a pair programmer from day 1. agents write, scaffold, and debug across every phase. my bar is understanding, not authorship. i ship fast and make sure i can explain what each system does and why, because the role i want is explaining these systems to humans. how the code got typed matters less than whether i understand it.
-
-**check power first.** most hardware bugs are power problems. measure the voltage before blaming the code, every single time.
-
-**just in time math.** no math courses. small modules of 2 to 4 hours injected exactly when a project needs them: triangle math for the tracker, rate of change intuition for pid, vectors and matrices for the arm, basic probability for the learning week. plus a standing drip: from week 5 onward, one short 3blue1brown linear algebra video every second or third evening, so the arm math arrives as review instead of cold.
-
-**one full rest day per week.** non negotiable. 90 working days is about 15 weeks, call it 105 calendar days. a plan abandoned at day 40 is worth less than one finished at day 105. day numbers below are working days.
-
-**everything public from day 0.** the empty public repo on day 0 is the commitment device.
-
----
-
 ## phase map
 
 | phase | days | what happens | ships publicly |
@@ -125,28 +103,6 @@ are new to me as we go, and keep me moving.
 | 4 | 59-82 | arm geometry + building both so-101 arms | arm demos, writeup 4 |
 | 5 | 83-90 | simulation, robot learning, portfolio front door | learned policy demo, writeup 5 |
 
-why this order: you can't design parts before you can cad, can't cad usefully before you can measure and print, can't do arm geometry before you understand motors and vectors, and can't appreciate a learned policy before you've built a control loop by hand. each phase feeds the next. the tracker sits mid course on purpose: it's the first thing that feels alive, placed right where motivation usually dips.
-
----
-
-## risks, called in advance
-
-- **shipping blocks progress.** mitigation: phase 1 needs only the starter kit, orders are phased, the arms land three weeks before the bench needs them
-- **print failures.** mitigation: the p2s auto calibrates, extra filament from day 0, arm prints run overnight with a week of slack
-- **math avoidance.** mitigation: modules stay under 4 hours, always tied to a part on the bench, and the evening drip makes the scariest block arrive as review
-- **burnout.** mitigation: one real rest day a week, and an honest calendar of ~105 days instead of pretending 90 straight
-- **optimism about hardware.** mitigation: arm assembly gets three days not one, days 51, 56, 57, and 89 are explicit overflow, day numbers are sequence not calendar
-- **overclaiming.** the frame in every interview: i built these to understand what your engineers do, not to claim i am one. the fastest way to torch this portfolio is inflating it in a technical screen, the second fastest is shipping systems i can't explain, so i lean on agents to build fast and make sure i understand what i built
-- **scope creep.** the skip list (in my private plan) is law. new ideas go in a `later.md`, not in the plan
-
 ---
 
 ## changelog
-
-**v4 (this version):** acceleration pass. ai coding agents are now a full pair programmer from day 1 instead of a restricted tutor: dropped the phase 1 firmware ban, the "explain every line before it flashes" gate, the 30/30 rule, and the handwritten-forever mandate on the pid class and arm geometry. rewrote CLAUDE.md, the handwriting policy (now the acceleration policy), and the risk section to match. the credibility bar shifts from "i handwrote it" to "i built it fast and can explain it."
-
-**v3:** plain language pass throughout so a beginner can read it cold, added the glossary and the five builds section, and settled the printer and phased-orders decisions (details in my private plan).
-
-**v2:** leader arm added (keyboard teleop makes bad training data). one rest day per week, honest ~105 day calendar. linear algebra drip from week 5 evenings. arm assembly expanded to 3 days plus overflow. esp32 block compressed from 5 days to 3. pca9685 demoted to a 1 hour detour. self balancer made optional. cleanrl cut to a half day. everything public from day 0 with the two layer repo, five writeups, five recorded explanations, and filming scheduled as real days.
-
-**v1:** original 90 day plan.
