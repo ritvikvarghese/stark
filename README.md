@@ -1,14 +1,16 @@
 # project stark
 
-*90 days of learning mechatronics and building things.*
+*90 days of learning mechatronics and building physical things with claude*
 
-starting with a cheap arduino starter kit and claude, i plan to to build 4 working machines: a camera that turns to follow my face, a small car that steers itself along a line, a robot arm i printed and assembled myself, and that same arm doing a task it learned by watching me demonstrate it.  follow everything at `/log` with real timestamps.
+I have always wanted to learn do build 
+
+starting with a cheap arduino starter kit and working with claude to build real-world machines. follow everything at `/log` with real timestamps. I plan to build 5 projects but will chase interestingness and build more. 
 
 ---
 
 ## the five thing i'm planning to build 
 
-the course looks like five projects but it's really one idea built five times, each time with one new layer. every robot on earth runs the same loop: sense the world, decide what to do, move. i build the smallest honest version of that loop, then keep upgrading it.
+the course looks like five projects but it's really one idea built five times, each time with one new layer. every robot on earth runs the same loop: sense the world, decide what to do, move: 
 
 1. **warmups (weeks 1 to 3).** tiny exercises with the starter kit. make a light blink. make a button work. make a knob dim a light. make a distance sensor beep faster as your hand gets closer, like a car parking sensor. make a small motor turn to an exact angle. each takes a day and teaches one skill: wiring things without frying them, and writing the small programs that control them. at the end i solder one project together permanently so it works without a laptop, a real gadget instead of a pile of wires.
 
@@ -92,17 +94,6 @@ are new to me as we go, and keep me moving.
 
 ---
 
-## phase map
-
-| phase | days | what happens | ships publicly |
-|---|---|---|---|
-| 0 | day 0 | orders placed, laptop set up, repo goes public | this readme, first log entry |
-| 1 | 1-21 | electronics and firmware basics on the starter kit | soldered gadget demo, writeup 1 |
-| 2 | 22-40 | cad, 3d printing, the face tracker | tracker demo, writeup 2 |
-| 3 | 41-58 | pid control with the line follower, a taste of the esp32 | rover demo, writeup 3 |
-| 4 | 59-82 | arm geometry + building both so-101 arms | arm demos, writeup 4 |
-| 5 | 83-90 | simulation, robot learning, portfolio front door | learned policy demo, writeup 5 |
-
----
-
 ## changelog
+
+fin.
