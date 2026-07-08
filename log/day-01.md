@@ -17,11 +17,20 @@
 - the difference between `delay()` and `millis()`: `delay()` freezes the whole board while it waits. `millis()` keeps the loop running and just checks the clock each pass, flipping the LED only when enough time has gone by. same blink, but `millis()` leaves the board free to do other things, which is what real robots need.
 - uploading overwrites the board's single program slot, it doesn't add to it. whatever i flash last is what runs.
 
-## photos / clips
+## clips
 
-<video src="https://github.com/ritvikvarghese/stark/raw/main/media/day-01/clip-1.mp4" controls width="480"></video>
+<!-- To embed an INLINE PLAYER: edit this file on github.com (pencil icon),
+     put the cursor on the placeholder line, and DRAG the mp4 from Finder onto it.
+     GitHub uploads it to its media CDN and inserts a self-rendering player URL.
+     The committed copies in media/day-01/ stay as the permanent archive. -->
 
-<video src="https://github.com/ritvikvarghese/stark/raw/main/media/day-01/clip-2.mp4" controls width="480"></video>
+<!-- drag media/day-01/clip-1.mp4 onto the line below ↓ -->
+▶️ [clip 1 — blink running (archived, click to view)](../media/day-01/clip-1.mp4)
+
+<!-- drag media/day-01/clip-2.mp4 onto the line below ↓ -->
+▶️ [clip 2 — blink running (archived, click to view)](../media/day-01/clip-2.mp4)
+
+## photos
 
 ![photo 1](../media/day-01/photo-1.jpg)
 
