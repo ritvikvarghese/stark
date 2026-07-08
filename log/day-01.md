@@ -19,16 +19,9 @@
 
 ## clips
 
-<!-- To embed an INLINE PLAYER: edit this file on github.com (pencil icon),
-     put the cursor on the placeholder line, and DRAG the mp4 from Finder onto it.
-     GitHub uploads it to its media CDN and inserts a self-rendering player URL.
-     The committed copies in media/day-01/ stay as the permanent archive. -->
+https://github.com/user-attachments/assets/82cb46bf-bfa0-460f-8863-1c64a6398de1
 
-<!-- drag media/day-01/clip-1.mp4 onto the line below ↓ -->
-▶️ [clip 1 — blink running (archived, click to view)](../media/day-01/clip-1.mp4)
-
-<!-- drag media/day-01/clip-2.mp4 onto the line below ↓ -->
-▶️ [clip 2 — blink running (archived, click to view)](../media/day-01/clip-2.mp4)
+https://github.com/user-attachments/assets/9c0632cf-d676-4176-882c-24d53a8d11b0
 
 ## photos
 
