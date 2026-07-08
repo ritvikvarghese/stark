@@ -18,7 +18,11 @@
 - uploading overwrites the board's single program slot, it doesn't add to it. whatever i flash last is what runs.
 
 ## photos / clips
-- [clip 1](../media/day-01/clip-1.mp4)
-- [clip 2](../media/day-01/clip-2.mp4)
-- ![photo 1](../media/day-01/photo-1.jpg)
-- ![photo 2](../media/day-01/photo-2.jpg)
+
+<video src="https://github.com/ritvikvarghese/stark/raw/main/media/day-01/clip-1.mp4" controls width="480"></video>
+
+<video src="https://github.com/ritvikvarghese/stark/raw/main/media/day-01/clip-2.mp4" controls width="480"></video>
+
+![photo 1](../media/day-01/photo-1.jpg)
+
+![photo 2](../media/day-01/photo-2.jpg)
