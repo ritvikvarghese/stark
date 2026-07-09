@@ -20,8 +20,7 @@
 
 ## clips
 
-<!-- for the inline player: edit this file on github.com and drag media/day-03/analog-read.mp4 onto the line below -->
-▶️ [analog read demo (archived, click to view)](../media/day-03/analog-read.mp4)
+https://github.com/user-attachments/assets/7f760f3f-fbec-4146-95f3-0cb343952909
 
 ## photos
 
