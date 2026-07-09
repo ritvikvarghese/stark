@@ -21,8 +21,7 @@
 
 ## clips
 
-<!-- for the inline player: edit this file on github.com and drag media/day-02/3led-button.mp4 onto the line below -->
-▶️ [3-LED button demo (archived, click to view)](../media/day-02/3led-button.mp4)
+https://github.com/user-attachments/assets/c50c44f2-b29a-4c60-98aa-20b43ce987e8
 
 ## photos
 
