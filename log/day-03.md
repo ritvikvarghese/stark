@@ -30,8 +30,7 @@ picked up a potentiometer and did the real version of the day's goal: turn a kno
 
 https://github.com/user-attachments/assets/7f760f3f-fbec-4146-95f3-0cb343952909
 
-<!-- for the inline player: edit this file on github.com and drag media/day-03/knob-dim.mp4 onto the line below -->
-▶️ [knob dims LED demo (archived, click to view)](../media/day-03/knob-dim.mp4)
+https://github.com/user-attachments/assets/f8d9e575-ec43-44f2-ba8e-2ebe325d93fe
 
 ## photos
 
