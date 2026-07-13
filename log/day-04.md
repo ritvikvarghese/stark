@@ -34,12 +34,9 @@ focused hard on **clean, premium-looking wiring** today, not just getting it wor
 overall a pretty fantastic day: finished the scanner, locked in the c++ fundamentals, retested everything i've built so far, and both big pieces of hardware (arm + printer) are now in hand.
 
 ## clips
-<!-- drag-drop the two videos here on github.com (converted mp4s are in ~/Downloads):
-     - knight-rider-1.mp4
-     - knight-rider-2.mp4
-     then `git pull --rebase` to bring the attachment URLs back down -->
+https://github.com/user-attachments/assets/65007c43-9d44-46cf-a035-c0658519032e
 
-
+https://github.com/user-attachments/assets/7baebb17-211d-403d-b438-1e821de1c4a6
 
 ## photos
 
