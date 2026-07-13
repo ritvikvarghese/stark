@@ -8,8 +8,6 @@ i have always wanted to build physical machines. this is me doing it in the open
 
 ## the two builds
 
-two projects, really one loop — sense, decide, move — built once small and once for real. the small one teaches every skill the big one needs, then films it.
-
 1. **the video robot.** a webcam on a motorized neck that follows my face, listens, and records on command. a full sense-think-act loop with ears. it teaches vision, servos, serial, pid, and voice, then films every demo in this repo, the arm included.
 
 2. **the desk organizer.** the so-101 arm pair. i puppet the main arm with a lighter twin to record 100+ demonstrations of tidying desk objects into a tray, train a policy on my own recordings, then push it up a difficulty ladder and publish a reliability curve at every level. the headline artifact is a graph, not a demo clip.
@@ -24,28 +22,6 @@ two projects, really one loop — sense, decide, move — built once small and o
 - [ ] day 24: video robot demo (it records the demo of itself) + see-think-move explained
 - [ ] day 38: arm scripted pick + teleop + the geometry explained
 - [ ] day 60: the reliability curve + failure taxonomy + the full story
-
-the full phase map, checkpoints, and risks live in `roadmap.md`.
-
----
-
-## small glossary
-
-- **microcontroller**: a tiny cheap computer on one chip (the arduino) that runs a single program forever and controls electronics directly
-- **firmware**: the program that lives on the microcontroller
-- **breadboard**: a plastic board with holes for building temporary circuits, no soldering
-- **servo**: a small motor you command to a specific angle
-- **pwm**: switching power on and off very fast to control brightness or speed
-- **pid**: the standard recipe for "how hard should i correct my error," tuned by hand
-- **cad**: designing 3d parts in software before printing them
-- **kinematics**: the geometry of an arm. if i want the hand there, what angle is each joint
-- **imitation learning**: training a robot by showing it demonstrations instead of programming rules
-- **imitation learning ladder**: teaching the same task at rising difficulty — one object, then several, then clutter, then unseen objects
-- **episode**: one recorded demonstration, or one attempt of the task, start to finish
-- **policy**: the trained model that maps what the cameras see to what the joints do
-- **teleoperation**: driving the follower arm by moving the leader arm by hand — how the demos get recorded
-- **failure taxonomy**: the fixed buckets a failed attempt is sorted into — perception, grasp, trajectory, release
-- **eval protocol**: the frozen rules for testing a policy, set once so the numbers compare across days
 
 ---
 
@@ -68,8 +44,6 @@ two layers. polish on top, raw underneath. the raw layer is the proof: learning 
 /writeups/          <- one short post per phase
 /media/             <- demo videos, build photos
 ```
-
-log rules: every working day gets an entry even if it's three lines. what i built, what broke, what i learned. commit daily so the graph tells the story. never clean up history, never delete a failed approach — tombstone it and say why. one rest day per 6.
 
 ---
 
