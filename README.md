@@ -104,6 +104,16 @@ are new to me as we go, and keep me moving.
 
 ---
 
+## risks
+
+- **arm shipping gates phase 3.** mitigation: ordered day 4 not day 58, domestic vendor, phases 1-2 are fully arm-independent, days 25-27 are pure math/sim and absorb slip, and buffer day 23 can slide. frames ship printed, so the printer is off the critical path entirely.
+- **8h/day burnout on a compressed calendar.** one rest day per 6 stays non-negotiable. 60 working days is roughly 70 calendar days.
+- **phase 4 optimism.** the reliability loop at level 1 gets four full days before any new difficulty is added. levels 3-4 and the stretch days are cuttable; the level 1-2 curve is not.
+- **silent data poisoning.** the two known killers are watching the follower arm while demonstrating, and drifting staging or lighting between collection days. both fail invisibly and cost a week each, so both are written into the day 40-41 protocol.
+- everything else (print failures, ai crutch, overclaiming) carries over unchanged.
+
+---
+
 ## changelog
 
 fin.
