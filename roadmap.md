@@ -41,3 +41,11 @@ days 1-3 are already done (see `/log`): blink, buttons + leds, analog read + pwm
 - every working day gets a log entry, even three lines: what i built, what broke, what i learned.
 - commit daily so the graph tells the story. never delete a failed approach — tombstone it and say why.
 - one rest day per 6. non-negotiable, the calendar is compressed enough already.
+
+## risks
+
+- **arm shipping gates phase 3.** ordered day 4 not day 58, domestic vendor, phases 1-2 are arm-independent, days 25-27 are pure math/sim that absorb slip, buffer day 23 can slide. frames ship printed, so the printer is off the critical path.
+- **8h/day burnout on a compressed calendar.** one rest day per 6, non-negotiable.
+- **phase 4 optimism.** the level-1 reliability loop gets four full days; levels 3-4 and the stretch days are cuttable, the level 1-2 curve is not.
+- **silent data poisoning.** watching the follower while demonstrating, and drifting staging or lighting between collection days — both fail invisibly, both written into the day 40-41 protocol.
+- print failures, ai crutch, overclaiming carry over unchanged.
