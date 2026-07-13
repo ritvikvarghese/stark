@@ -1,6 +1,6 @@
 # project stark
 
-*one person, 60 working days, zero to a robot arm that learned to tidy a desk by watching me. every day documented in public, failures included.*
+60 days of learning and building embodied ai. 
 
 i have always wanted to build physical machines. this is me doing it in the open, from a cheap arduino starter kit to a robot arm that learns, with claude as a full-time pair. it used to be five scattered builds; now it's two, because one arm taken to a published reliability curve proves more than five demos. everything is at `/log` with real timestamps, nothing cleaned up.
 
