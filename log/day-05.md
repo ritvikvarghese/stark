@@ -25,11 +25,8 @@ circuit was genuinely easy — VCC to 5V, ground to ground, trig to 12, echo to 
 overall a simple, smooth day — the sensor was intuitive, the circuit was quick, and both exercises worked. pretty happy to have knocked it out first thing in the morning.
 
 ## clips
-<!-- drag-drop the video here on github.com (converted mp4 is in ~/Downloads):
-     - day-05-ultrasonic.mp4
-     then `git pull --rebase` to bring the attachment URL back down -->
 
-
+https://github.com/user-attachments/assets/e6beab5d-85b7-444c-846a-1a4571c4e5df
 
 ## photos
 
