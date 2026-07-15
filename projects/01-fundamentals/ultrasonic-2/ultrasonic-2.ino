@@ -25,7 +25,7 @@ void loop() {
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
-  pingTravelTime = pulseIn(echoPin, HIGH);
+  pingTravelTime = pulseIn(echoPin, HIGH); // pulseIn(pin, HIGH) blocks until the pin goes HIGH then LOW, and returns how many microseconds it was HIGH. 
 
   distance = (pingTravelTime * 0.0343) / 2; // speed of sound = 0.0343 cm/us. divide by 2 because the ping went to the target AND back.
   if (distance < 10) { // if the distance is less than 10 cm, turn on the LED
