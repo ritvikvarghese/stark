@@ -27,14 +27,13 @@ i've switched to **writing my code in the Arduino IDE directly** instead of Curs
 - uploads are still a bit finicky — the board occasionally won't sync on the first try and i have to replug or retry. not a code problem, just the mac/usb being fussy.
 
 ## clips
-<!-- drag-drop the videos here on github.com (converted mp4s are in ~/Downloads):
-     - day-06-1.mp4
-     - day-06-2.mp4
-     - day-06-3.mp4
-     - day-06-4.mp4
-     then `git pull --rebase` to bring the attachment URLs back down -->
+https://github.com/user-attachments/assets/8ad0da9d-c0ab-4d08-b84d-eb49c71bed8b
 
+https://github.com/user-attachments/assets/f4d857ba-85a3-406e-a04d-7b130a4024db
 
+https://github.com/user-attachments/assets/8f61c126-b7d5-4c6a-ae56-0a5f26c0e144
+
+https://github.com/user-attachments/assets/3373e48b-c21d-4bdf-bed4-b682e431a423
 
 ## photos
 
