@@ -1,7 +1,7 @@
 #include <Servo.h>
 int lightPin = A0;
 int servoPin = 9;
-int lightVal;
+int lightVal; 
 int servoPos = 0;
 String status1 = "light is off";
 String status2 = "light is medium";

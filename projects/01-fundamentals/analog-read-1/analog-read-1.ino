@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
     readval = analogRead(readPin);
-    v2 = readval * (5.0 / 1023.0);
+    v2 = readval * (5.0 / 1023.0); // 1023 is the maximum value of the analog read and 255 is the maximum value of the digital read
     Serial.println(v2);
     delay(1000);
 }
