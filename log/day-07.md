@@ -42,6 +42,13 @@ the looseness is a **hardware-supply problem, not a design one** — i need the 
 honest status: a great *learning* day. i proved the power fix end to end, built a two-servo neck, and wrote non-blocking code that drives both at once — and i hit a real mechanical wall (loose joints) that i understand now and know how to fix.
 
 ## clips / photos
+
+https://github.com/user-attachments/assets/781cc445-ebf3-46e2-ba15-0b502aaeeca0
+
+https://github.com/user-attachments/assets/08c572dc-ccd4-4ef5-9e17-930a6d09d9e8
+
+https://github.com/user-attachments/assets/86ad595c-777e-4860-b569-4feb8db0aec7
+
 <img width="3024" height="4032" alt="day-07-1" src="https://github.com/user-attachments/assets/4f1211f3-6460-45ee-b644-27c63296266a" />
 
 <img width="3024" height="4032" alt="day-07-2" src="https://github.com/user-attachments/assets/f5ad8177-2399-4f08-bc7e-83e7b6d78af3" />
