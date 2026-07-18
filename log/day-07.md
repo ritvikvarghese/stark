@@ -42,4 +42,6 @@ the looseness is a **hardware-supply problem, not a design one** — i need the 
 honest status: a great *learning* day. i proved the power fix end to end, built a two-servo neck, and wrote non-blocking code that drives both at once — and i hit a real mechanical wall (loose joints) that i understand now and know how to fix.
 
 ## clips / photos
-<!-- day-07-1/2/3.mp4 (fix + neck moving, servo-4 aim, servo-5 windmill) and day-07-1/2.jpg — drag-dropped -->
+<img width="3024" height="4032" alt="day-07-1" src="https://github.com/user-attachments/assets/4f1211f3-6460-45ee-b644-27c63296266a" />
+
+<img width="3024" height="4032" alt="day-07-2" src="https://github.com/user-attachments/assets/f5ad8177-2399-4f08-bc7e-83e7b6d78af3" />
