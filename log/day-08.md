@@ -22,7 +22,7 @@ honest status: not my cleanest work, and this is the first of many. the point to
 
 ## clips/photos
 
-https://github.com/user-attachments/assets/b43ebca7-772d-48b2-9948-52934e1c409c
+https://github.com/user-attachments/assets/25b7ab72-615b-47be-b337-0977b19fed7d
 
 ![the blue LED lit on the perfboard, powered off the Arduino's 5V — the rebuild that worked](../media/day-08/led-lit.jpg)
 
