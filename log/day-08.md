@@ -20,12 +20,11 @@
 
 honest status: not my cleanest work, and this is the first of many. the point today was reps and learning to read joints, not a pretty board — and i got both. i can tin a tip, make a joint, tell good from cold, and desolder a mistake cleanly. that's the day-8 checkpoint hit; day 9 is the parking sensor for real.
 
-## photos
+## clips/photos
+https://github.com/user-attachments/assets/4232bdf5-1c92-4a5a-9d1e-eead56e7223d
 
 ![the blue LED lit on the perfboard, powered off the Arduino's 5V — the rebuild that worked](../media/day-08/led-lit.jpg)
 
 ![the back of the board — messy first joints, kept honest](../media/day-08/board-back.jpg)
-
-## clips
 
 <!-- short clip of the lit LED — drag-dropped into the github log -->
