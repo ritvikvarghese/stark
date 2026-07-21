@@ -23,5 +23,7 @@
 - overall the connections aren't as strong as they should be. i know it'll come with practice.
 
 ## clips / photos
-<img width="3024" height="4032" alt="IMG_7385" src="https://github.com/user-attachments/assets/a1c89063-46f9-4d5f-a3bb-2bfb51fbe3fc" />
+
+https://github.com/user-attachments/assets/08b76b24-8b6f-4c48-a061-6b4b4ae600f6
+
 <img width="3024" height="4032" alt="IMG_7390" src="https://github.com/user-attachments/assets/a3ad3611-0a0a-4275-aec7-770b340e1fe6" />
