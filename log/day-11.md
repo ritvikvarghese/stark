@@ -32,6 +32,9 @@ to make sure i'm actually understanding and not just copying, i revised some pyt
 the rest is still a bit beyond me, and i'm still working through it. building first, deep understanding as i go.
 
 ## clips / photos
+
+https://github.com/user-attachments/assets/d513fd5a-b1f7-4f14-b119-71392b886129
+
 ![day 11 — mediapipe face detection with bounding box + keypoints](../media/day-11/day-11-face-box.jpg)
 
 <!-- VIDEO: drag-drop ~/Downloads/day-11-face-box.mp4 into this file on GitHub for the playable inline demo.
