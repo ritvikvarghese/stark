@@ -1,0 +1,7 @@
+# video robot — python deps
+# NOTE: mediapipe is pinned to 0.10.14 on purpose.
+# the latest mediapipe (0.10.35) on apple silicon ships a tasks-only build
+# with the legacy mp.solutions api stripped out, which breaks the face
+# detection code. 0.10.14 still ships mp.solutions. don't bump this blindly.
+opencv-python
+mediapipe==0.10.14
