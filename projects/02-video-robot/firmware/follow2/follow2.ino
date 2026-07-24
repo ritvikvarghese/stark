@@ -23,6 +23,5 @@ void loop() {
     angle = constrain(angle, 0, 180);
     if (cmd == 'p') pan.write(angle);
     if (cmd == 't') tilt.write(angle);
-    Serial.println(String(cmd) + " " + angle);
   }
 }
