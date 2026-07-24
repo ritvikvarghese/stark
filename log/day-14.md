@@ -23,7 +23,7 @@ instead of guessing, i decided to isolate it piece by piece.
 - **then rebuilt the real script (follow1)** to match what made the laptop/ZEB tests work — all the low-latency stuff. put the camera back on the neck. and it worked. it now follows my face almost instantly.
 
 ## what the problem actually was
-**latency was the whole thing.** underneath it was a traffic jam: the arduino was reading commands slowly and python was firing them faster than they could be handled, so they piled up — the servo was basically acting on where my face was ~15 seconds ago. no closed loop can survive that. once i fixed the plumbing (faster firmware, fewer/smaller frames, don't flood the wire), the exact same setup that failed all day just worked. (full breakdown in `theory-notes/diagnosis/`.)
+**latency was the whole thing.** underneath it was a traffic jam: the arduino was reading commands slowly and python was firing them faster than they could be handled, so they piled up — the servo was basically acting on where my face was ~15 seconds ago. no closed loop can survive that. once i fixed the plumbing (faster firmware, fewer/smaller frames, don't flood the wire), the exact same setup that failed all day just worked. 
 
 ## checkpoint — hit
 camera on the neck, closed loop, follows my face in near real-time. jerky on fast moves, but it holds and re-centers. that's day 14 done.
@@ -31,7 +31,17 @@ camera on the neck, closed loop, follows my face in near real-time. jerky on fas
 ## honest note
 this was brutal — 4-5 hours of debugging and a lot of code i didn't write myself. i'm okay with that. i'm not going to learn every line at this point and there's no real reason to; what i'm proud of is that i **engineered** the thing and pushed it until it worked. that's the part that counts to me.
 
-## next
-day 15 — PID. the loop works on a plain proportional controller but still hunts on fast moves. that leftover wobble is exactly what PID fixes, and the controller is **mine to write by hand**. the whole rig is already set up for it — there's a one-line slot in follow1 where the PID drops in.
+## videos/images
 
-(images + video to add later.)
+<img width="3024" height="4032" alt="IMG_7396" src="https://github.com/user-attachments/assets/977a443c-666d-4943-92d7-ace4a0c8762e" />
+
+https://github.com/user-attachments/assets/4cd1d2c9-6e30-466b-9fe5-6b995fc22090
+
+
+https://github.com/user-attachments/assets/6143a451-a6b0-463d-b645-f2094d3220f1
+
+<img width="3024" height="4032" alt="IMG_7411" src="https://github.com/user-attachments/assets/709b0d4d-c8d1-442b-a892-34ff038af7d6" />
+
+https://github.com/user-attachments/assets/c5e73c92-3480-4683-8528-0b7edfb8b075
+
+
