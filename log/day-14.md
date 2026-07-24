@@ -33,15 +33,13 @@ this was brutal — 4-5 hours of debugging and a lot of code i didn't write myse
 
 ## videos/images
 
-<img width="3024" height="4032" alt="IMG_7396" src="https://github.com/user-attachments/assets/977a443c-666d-4943-92d7-ace4a0c8762e" />
+version 1:
+<img width="484" height="443" alt="Screenshot 2026-07-24 at 8 32 31 PM" src="https://github.com/user-attachments/assets/1099282c-57e8-47de-8b24-e51d8d27ec10" />
 
-https://github.com/user-attachments/assets/4cd1d2c9-6e30-466b-9fe5-6b995fc22090
-
-
-https://github.com/user-attachments/assets/6143a451-a6b0-463d-b645-f2094d3220f1
-
+version 2:
 <img width="3024" height="4032" alt="IMG_7411" src="https://github.com/user-attachments/assets/709b0d4d-c8d1-442b-a892-34ff038af7d6" />
 
+videos:
 https://github.com/user-attachments/assets/c5e73c92-3480-4683-8528-0b7edfb8b075
-
-
+https://github.com/user-attachments/assets/4cd1d2c9-6e30-466b-9fe5-6b995fc22090
+https://github.com/user-attachments/assets/6143a451-a6b0-463d-b645-f2094d3220f1
